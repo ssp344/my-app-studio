@@ -1,12 +1,13 @@
 {% extends "base.html" %}
-{% block title %}{{ 'Create account' if signup else 'Log in' }} · {{ brand.name }}{% endblock %}
+{% block title %}{{ 'Admin sign in' if admin_login else ('Create account' if signup else 'Log in') }} · {{ brand.name }}{% endblock %}
 {% block content %}
 <section class="form-stack" aria-labelledby="account-title">
-  <p class="eyebrow">Shiv’s reader accounts</p>
-  <h1 id="account-title">{{ 'Create account' if signup else 'Log in' }}</h1>
+  <p class="eyebrow">{{ 'Bookstore administrators' if admin_login else 'Shiv’s reader accounts' }}</p>
+  <h1 id="account-title">{{ 'Admin sign in' if admin_login else ('Create account' if signup else 'Log in') }}</h1>
   <p>{{ 'Join the bookstore to access your private reader dashboard.' if signup else 'Welcome back. Sign in to your reader dashboard.' }}</p>
   {% if error %}<p role="alert">{{ error }}</p>{% endif %}
-  <form method="post" action="{{ '/signup' if signup else '/login' }}">
+  {% if admin_login %}<p>Use your admin account. A reader account cannot access administration.</p>{% elif not signup %}<p><a class="text-link" href="/admin/login">Administrator? Admin sign in →</a></p>{% endif %}
+  <form method="post" action="{{ '/admin/login' if admin_login else ('/signup' if signup else '/login') }}">
     <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
     <label for="username">Username</label>
     <input id="username" name="username" value="{{ username|default('') }}" autocomplete="username" required minlength="{{ 3 if signup else 1 }}" maxlength="32" aria-describedby="username-help">
@@ -14,7 +15,7 @@
     <label for="password">Password</label>
     <input id="password" name="password" type="password" autocomplete="{{ 'new-password' if signup else 'current-password' }}" required minlength="{{ 15 if signup else 1 }}" maxlength="128" aria-describedby="password-help">
     <p id="password-help" class="muted">{{ 'Use a disposable local passphrase of 15–128 characters.' if signup else 'Use your local test account password.' }}</p>
-    <button class="button" type="submit">{{ 'Create account' if signup else 'Log in' }}</button>
+    <button class="button" type="submit">{{ 'Admin sign in' if admin_login else ('Create account' if signup else 'Log in') }}</button>
   </form>
   <p>{% if signup %}Already a reader? <a href="/login">Log in</a>.{% else %}New here? <a href="/signup">Create account</a>.{% endif %}</p>
 </section>

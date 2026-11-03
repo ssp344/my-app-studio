@@ -6,10 +6,10 @@ actual evidence; pending is a valid state. Keep explanations/help in
 
 ## Current stage
 
-- **Current feature:** APP-002.
-- **Status:** APP-001 merged with both main CI jobs passing; APP-002 implemented and kept locally; PR/CI next. APP-001 prediction remains pending.
-- **Next step:** Publish reviewed APP-002 work and inspect PR CI.
-- **Implementation marker:** `studio.json`: `implemented_through: 2` after passing cumulative checks.
+- **Current feature:** APP-003.
+- **Status:** APP-001 merged with both main CI jobs passing; APP-002 merged with both main CI jobs passing; APP-003 implemented and kept locally; reviewed summary ready for PR. APP-001 prediction remains pending.
+- **Next step:** Publish reviewed roles feature and verify PR CI.
+- **Implementation marker:** `studio.json`: `implemented_through: 3` after passing cumulative checks.
 
 This repository owns application code. Server/proxy changes and production
 deployment are outside these three local-development lessons. Prepared helpers
@@ -65,9 +65,9 @@ permissions, including for an existing session after a role change.
 
 | Decision | Agreement |
 |---|---|
-| Intended admin-only result | Pending |
-| Actual allowed/denied request evidence | Pending |
-| Own issue / branch / PR | Pending |
+| Intended admin-only result | Read-only bookstore overview with store name, sample-book count and demo catalog status. Separate `/admin/login` entry point requested by learner; username `shivadmin` chosen for a local admin account. `/login` links to admin sign-in, preserving the prepared anonymous `/admin` redirect contract. No shared passkey or automatic admin signup. Anonymous visitors redirect to login; members get 403; admins get 200. Roles change only through the trusted local CLI and apply on the next request, including existing sessions. |
+| Actual allowed/denied request evidence | Full APP-003 and normal checks passed: 99 foundation, 18 cumulative contracts, 2 Chromium tests. Anonymous API 401 / page login redirect; member API/page 403; admin API/page 200; promotion/downgrade applies to existing sessions. |
+| Own issue / branch / PR | [Issue #5](https://github.com/ssp344/my-app-studio/issues/5); `feature/app-003-roles`; PR pending. |
 
 **Keep when:** a direct request cannot bypass the role boundary, role changes
 take effect as specified, new signup remains member-only, and full cumulative
@@ -82,8 +82,8 @@ customer research or claims that a timestamp proves learning.
 | Feature | Files / own issue / PR | Actual checks and learner observations | Kept / GitHub state |
 |---|---|---|---|
 | APP-001 | [Issue #1](https://github.com/ssp344/my-app-studio/issues/1); `app/brand.json`, `app/templates/home.html`, `app/templates/base.html`, `app/static/logo.svg`, `app/static/site.css` | Full `check --lesson APP-001` and normal `check` passed: 98 foundation + 2 contracts + 2 Chromium tests. Desktop 1280px and mobile 390px visually reviewed; no mobile horizontal overflow. Learner selected broken-link scenario with AI help and observed Browse books scrolling to the listings. | Learner chose to keep: simple and easy to look through. Record reviewed and pushed; [PR #2](https://github.com/ssp344/my-app-studio/pull/2) merged; issue closed; both main CI jobs passed. |
-| APP-002 | [Issue #3](https://github.com/ssp344/my-app-studio/issues/3); `app/features/accounts.py`, `app/templates/account.html`, `app/templates/dashboard.html`, `app/templates/base.html` | Full APP-002 checks passed: 98 foundation, 14 cumulative contracts, 2 Chromium tests. Anonymous dashboard redirected to login; signup desktop/mobile reviewed. | Learner observed login page after logout/reopening dashboard; kept the flow to prevent access after logout; summary reviewed. Copied-cookie interpretation remains pending; [PR #4](https://github.com/ssp344/my-app-studio/pull/4) open; CI/merge pending. |
-| APP-003 | Pending | Unfinished; explicit contracts not yet passed | Pending |
+| APP-002 | [Issue #3](https://github.com/ssp344/my-app-studio/issues/3); `app/features/accounts.py`, `app/templates/account.html`, `app/templates/dashboard.html`, `app/templates/base.html` | Full APP-002 checks passed: 98 foundation, 14 cumulative contracts, 2 Chromium tests. Anonymous dashboard redirected to login; signup desktop/mobile reviewed. | Learner observed login page after logout/reopening dashboard; kept the flow to prevent access after logout; summary reviewed. Copied-cookie interpretation remains pending; [PR #4](https://github.com/ssp344/my-app-studio/pull/4) merged; issue #3 closed; both main CI jobs passed. |
+| APP-003 | [Issue #5](https://github.com/ssp344/my-app-studio/issues/5); `app/features/roles.py`, `app/templates/admin.html`, `app/templates/forbidden.html` | Full cumulative checks passed; isolated real-browser CLI promotion and member denial reviewed; admin desktop/mobile layouts reviewed without horizontal overflow. | Learner observed admin overview as shivadmin and denial as test; kept the simple flow; summary reviewed. Independent check interpretation pending. PR/CI/merge next. |
 
 The instructor's reference branches show possible implementations. They do not
 establish this repository's completion or the learner's own reasoning.
