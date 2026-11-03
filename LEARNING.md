@@ -15,7 +15,7 @@ Accuracy approval is not proof of understanding. Label simulated trials explicit
 - Keep decision: “Yes i like it and i love how simple and easy to quick look”.
 - Review: AI reviewed the changed source, desktop and narrow screenshots, keyboard/navigation checks, and full APP-001 results. Learner reviewed the summary and replied “looks good” before publication.
 - Help/gaps: Learner chose a bookstore open to everyone, named it “Shiv's Book Store!”, and requested simple book cards with names, prices, and short descriptions. AI suggested the promise, Everyperson personality, sample books, colors, and implementation. Prediction remains pending after prompts and a hint; approval was not treated as a prediction. Learner reviewed the summary before publication.
-- Evidence links / next step: [Issue #1](https://github.com/ssp344/my-app-studio/issues/1). Full APP-001 checks passed; review this summary before commit/push and PR. Prediction remains pending.
+- Evidence links / next step: [Issue #1](https://github.com/ssp344/my-app-studio/issues/1). Full APP-001 checks passed; summary reviewed and published. [PR #2](https://github.com/ssp344/my-app-studio/pull/2) open; CI and merge decision next. Prediction remains pending.
 
 ## APP-002
 

@@ -7,8 +7,8 @@ actual evidence; pending is a valid state. Keep explanations/help in
 ## Current stage
 
 - **Current feature:** APP-001.
-- **Status:** APP-001 implementation in progress; learner prediction pending.
-- **Next step:** Review learner excerpts for accuracy before commit/push and PR.
+- **Status:** APP-001 implemented and kept locally; PR #2 open; learner prediction pending.
+- **Next step:** Wait for PR #2 CI, then learner merge decision.
 - **Implementation marker:** `studio.json`: `implemented_through: 1` after passing cumulative checks.
 
 This repository owns application code. Server/proxy changes and production
@@ -26,7 +26,7 @@ Keep account actions honest about their unfinished state.
 | Visitor and concrete use situation | Everyone, including school and college students, browsing books for school or leisure. |
 | Reused IS117 brand, or name / promise / primary archetype | Shiv’s Book Store; Find your next book for school or leisure; AI-suggested Everyperson personality adopted with simple defaults. |
 | One visible choice and visitor benefit | Learner requested books with names, prices, and short descriptions. Expected visitor effect remains pending. |
-| Own issue / branch / PR | [Issue #1](https://github.com/ssp344/my-app-studio/issues/1); `feature/app-001-bookstore`; PR pending. |
+| Own issue / branch / PR | [Issue #1](https://github.com/ssp344/my-app-studio/issues/1); `feature/app-001-bookstore`; [PR #2](https://github.com/ssp344/my-app-studio/pull/2). |
 
 **Keep when:** the agreed identity is visible and usable at desktop/narrow widths;
 full foundation + APP-001 checks pass; AI review and the learner's actual check
@@ -81,7 +81,7 @@ customer research or claims that a timestamp proves learning.
 
 | Feature | Files / own issue / PR | Actual checks and learner observations | Kept / GitHub state |
 |---|---|---|---|
-| APP-001 | [Issue #1](https://github.com/ssp344/my-app-studio/issues/1); `app/brand.json`, `app/templates/home.html`, `app/templates/base.html`, `app/static/logo.svg`, `app/static/site.css` | Full `check --lesson APP-001` and normal `check` passed: 98 foundation + 2 contracts + 2 Chromium tests. Desktop 1280px and mobile 390px visually reviewed; no mobile horizontal overflow. Learner selected broken-link scenario with AI help and observed Browse books scrolling to the listings. | Learner chose to keep: simple and easy to look through. Local only; record review, PR and CI pending. |
+| APP-001 | [Issue #1](https://github.com/ssp344/my-app-studio/issues/1); `app/brand.json`, `app/templates/home.html`, `app/templates/base.html`, `app/static/logo.svg`, `app/static/site.css` | Full `check --lesson APP-001` and normal `check` passed: 98 foundation + 2 contracts + 2 Chromium tests. Desktop 1280px and mobile 390px visually reviewed; no mobile horizontal overflow. Learner selected broken-link scenario with AI help and observed Browse books scrolling to the listings. | Learner chose to keep: simple and easy to look through. Record reviewed and pushed; [PR #2](https://github.com/ssp344/my-app-studio/pull/2) open; CI and merge pending. |
 | APP-002 | Pending | Unfinished; explicit contracts not yet passed | Pending |
 | APP-003 | Pending | Unfinished; explicit contracts not yet passed | Pending |
 
