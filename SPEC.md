@@ -7,8 +7,8 @@ actual evidence; pending is a valid state. Keep explanations/help in
 ## Current stage
 
 - **Current feature:** APP-003.
-- **Status:** APP-001 merged with both main CI jobs passing; APP-002 merged with both main CI jobs passing; APP-003 implemented and kept locally; reviewed summary ready for PR. APP-001 prediction remains pending.
-- **Next step:** Publish reviewed roles feature and verify PR CI.
+- **Status:** APP-001 merged with both main CI jobs passing; APP-002 merged with both main CI jobs passing; APP-003 merged in PR #6; issue #5 closed. APP-001 prediction remains pending.
+- **Next step:** Verify latest main CI before submitting the repository URL.
 - **Implementation marker:** `studio.json`: `implemented_through: 3` after passing cumulative checks.
 
 This repository owns application code. Server/proxy changes and production
@@ -83,7 +83,14 @@ customer research or claims that a timestamp proves learning.
 |---|---|---|---|
 | APP-001 | [Issue #1](https://github.com/ssp344/my-app-studio/issues/1); `app/brand.json`, `app/templates/home.html`, `app/templates/base.html`, `app/static/logo.svg`, `app/static/site.css` | Full `check --lesson APP-001` and normal `check` passed: 98 foundation + 2 contracts + 2 Chromium tests. Desktop 1280px and mobile 390px visually reviewed; no mobile horizontal overflow. Learner selected broken-link scenario with AI help and observed Browse books scrolling to the listings. | Learner chose to keep: simple and easy to look through. Record reviewed and pushed; [PR #2](https://github.com/ssp344/my-app-studio/pull/2) merged; issue closed; both main CI jobs passed. |
 | APP-002 | [Issue #3](https://github.com/ssp344/my-app-studio/issues/3); `app/features/accounts.py`, `app/templates/account.html`, `app/templates/dashboard.html`, `app/templates/base.html` | Full APP-002 checks passed: 98 foundation, 14 cumulative contracts, 2 Chromium tests. Anonymous dashboard redirected to login; signup desktop/mobile reviewed. | Learner observed login page after logout/reopening dashboard; kept the flow to prevent access after logout; summary reviewed. Copied-cookie interpretation remains pending; [PR #4](https://github.com/ssp344/my-app-studio/pull/4) merged; issue #3 closed; both main CI jobs passed. |
-| APP-003 | [Issue #5](https://github.com/ssp344/my-app-studio/issues/5); `app/features/roles.py`, `app/templates/admin.html`, `app/templates/forbidden.html` | Full cumulative checks passed; isolated real-browser CLI promotion and member denial reviewed; admin desktop/mobile layouts reviewed without horizontal overflow. | Learner observed admin overview as shivadmin and denial as test; kept the simple flow; summary reviewed. Independent check interpretation pending. [PR #6](https://github.com/ssp344/my-app-studio/pull/6) open; CI/merge pending. |
+| APP-003 | [Issue #5](https://github.com/ssp344/my-app-studio/issues/5); `app/features/roles.py`, `app/templates/admin.html`, `app/templates/forbidden.html` | Full cumulative checks passed; isolated real-browser CLI promotion and member denial reviewed; admin desktop/mobile layouts reviewed without horizontal overflow. | Learner observed admin overview as shivadmin and denial as test; kept the simple flow; summary reviewed. Independent check interpretation pending. [PR #6](https://github.com/ssp344/my-app-studio/pull/6) merged; issue #5 closed. Latest main CI must be verified before submission. |
 
 The instructor's reference branches show possible implementations. They do not
 establish this repository's completion or the learner's own reasoning.
+
+## Submission record
+
+- Submit this repository: https://github.com/ssp344/my-app-studio
+- Completed merged lesson PRs: [APP-001 #2](https://github.com/ssp344/my-app-studio/pull/2), [APP-002 #4](https://github.com/ssp344/my-app-studio/pull/4), [APP-003 #6](https://github.com/ssp344/my-app-studio/pull/6). Corresponding issues #1, #3 and #5 are closed.
+- [Actual GitHub CI runs](https://github.com/ssp344/my-app-studio/actions/workflows/check.yml): inspect the latest main run for both check and windows.
+- Learning evidence gaps remain explicit: APP-001 prediction; APP-002 and APP-003 independent check interpretations. No missing student answers have been invented.

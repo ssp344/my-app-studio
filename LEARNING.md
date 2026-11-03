@@ -25,7 +25,7 @@ Accuracy approval is not proof of understanding. Label simulated trials explicit
 - Keep decision: “i like this because no one can access after logout”. This describes the logged-out session; a fresh valid login remains allowed.
 - Review: Learner reviewed the summary and replied “looks good” before publication. AI reviewed code, security helper use, desktop/mobile signup rendering and full cumulative checks.
 - Help/gaps: AI implemented forms/API routes, reused prepared security helpers and ran tests. AI supplied scenarios and explained session revocation. Missing interpretation stays pending. Learner requested shorter passwords; the prepared 15–128-character contract was retained after explanation.
-- Evidence links / next step: [Issue #3](https://github.com/ssp344/my-app-studio/issues/3). Full APP-002 and normal checks passed: 98 foundation, 14 cumulative contracts and 2 Chromium tests. Publish reviewed work and verify PR CI before the merge decision.
+- Evidence links / next step: [Issue #3](https://github.com/ssp344/my-app-studio/issues/3). Full APP-002 and normal checks passed: 98 foundation, 14 cumulative contracts and 2 Chromium tests. [PR #4](https://github.com/ssp344/my-app-studio/pull/4) merged; issue #3 closed and both main CI jobs passed.
 
 ## APP-003
 
@@ -35,4 +35,4 @@ Accuracy approval is not proof of understanding. Label simulated trials explicit
 - Keep decision: “i like it because this is an simple flow for admin and the usert”.
 - Review: Learner reviewed the summary and replied “this is good” before publication. AI reviewed permission enforcement, existing-session role changes, signup restrictions, and desktop/mobile admin layouts.
 - Help/gaps: AI implemented routes, templates and tests. Learner requested a distinct admin sign-in page and chose shivadmin; learner entered the password privately, then AI promoted the local account through the trusted CLI. No shared passkey or public role assignment was added. The prepared anonymous /admin redirect to /login remains; /login links to /admin/login. A mistaken /dashboard/admin visit was distinguished from a permission denial. Independent direct-request interpretation remains pending.
-- Evidence links / next step: [Issue #5](https://github.com/ssp344/my-app-studio/issues/5). Full normal checks passed: 99 foundation, 18 cumulative contracts, 2 Chromium tests. Publish reviewed work, inspect latest PR CI, then learner merge decision.
+- Evidence links / next step: [Issue #5](https://github.com/ssp344/my-app-studio/issues/5). Full normal checks passed: 99 foundation, 18 cumulative contracts, 2 Chromium tests. [PR #6](https://github.com/ssp344/my-app-studio/pull/6) merged; issue #5 closed. Verify latest main CI before submitting.
