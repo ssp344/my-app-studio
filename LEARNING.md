@@ -29,10 +29,10 @@ Accuracy approval is not proof of understanding. Label simulated trials explicit
 
 ## APP-003
 
-- Prediction: Pending.
-- Check interpretation: Pending.
-- Browser observation: Pending.
-- Keep decision: Pending.
-- Review: Pending.
-- Help/gaps: Pending.
-- Evidence links / next step: Keep APP-002 before agreeing this lesson.
+- Prediction: After AI scenarios, learner predicted blocking members: “it should block becuase only /admin can access the data and all the info not the user”. AI clarified that the admin role grants access, not typing the address.
+- Check interpretation: Pending. AI showed member 403, admin 200, and downgraded-member 403 for direct API requests. Learner requested a separate admin sign-in flow rather than independently interpreting that test.
+- Browser observation: As shivadmin: “i see admin only info whats the store name sample 3 book and also see return to yout dashboard”. As regular test account: “i tried to login as test and access required. this is perfect”.
+- Keep decision: “i like it because this is an simple flow for admin and the usert”.
+- Review: Learner reviewed the summary and replied “this is good” before publication. AI reviewed permission enforcement, existing-session role changes, signup restrictions, and desktop/mobile admin layouts.
+- Help/gaps: AI implemented routes, templates and tests. Learner requested a distinct admin sign-in page and chose shivadmin; learner entered the password privately, then AI promoted the local account through the trusted CLI. No shared passkey or public role assignment was added. The prepared anonymous /admin redirect to /login remains; /login links to /admin/login. A mistaken /dashboard/admin visit was distinguished from a permission denial. Independent direct-request interpretation remains pending.
+- Evidence links / next step: [Issue #5](https://github.com/ssp344/my-app-studio/issues/5). Full normal checks passed: 99 foundation, 18 cumulative contracts, 2 Chromium tests. Publish reviewed work, inspect latest PR CI, then learner merge decision.

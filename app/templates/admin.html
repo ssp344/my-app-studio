@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Administration · {{ brand.name }}{% endblock %}
+{% block content %}
+<section class="panel" aria-labelledby="admin-title">
+  <p class="eyebrow">Admin only</p>
+  <h1 id="admin-title">Administration</h1>
+  <p>{{ overview.message }}</p>
+  <h2>Store overview</h2>
+  <dl>
+    <dt>Store</dt><dd>{{ overview.store }}</dd>
+    <dt>Sample books</dt><dd>{{ overview.sample_books }}</dd>
+    <dt>Catalog status</dt><dd>{{ overview.catalog_status }}</dd>
+  </dl>
+  <a class="text-link" href="/dashboard">Return to your dashboard →</a>
+</section>
+{% endblock %}

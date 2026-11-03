@@ -88,7 +88,7 @@ def login_page(request: Request):
     return _render(request, "account.html", {"signup": False})
 
 
-async def _submit(request, signup):
+async def _submit(request, signup, admin_login=False):
     """Share bounded HTML validation without echoing rejected passwords."""
     username = ""
     try:
@@ -100,7 +100,8 @@ async def _submit(request, signup):
             credentials = (SignupInput if signup else LoginInput).model_validate(data)
         username = credentials.username
         response = RedirectResponse(
-            "/login" if signup else "/dashboard", status_code=303
+            "/login" if signup else ("/admin" if admin_login else "/dashboard"),
+            status_code=303,
         )
         if signup:
             security.limit_signup(request)
@@ -121,7 +122,12 @@ async def _submit(request, signup):
     response = _render(
         request,
         "account.html",
-        {"signup": signup, "error": error, "username": username},
+        {
+            "signup": signup,
+            "admin_login": admin_login,
+            "error": error,
+            "username": username,
+        },
         status_code=status,
     )
     response.headers.update(headers)
@@ -157,3 +163,15 @@ async def logout_form(request: Request):
     response = RedirectResponse("/", status_code=303)
     security.logout(request, response)
     return response
+
+
+@router.get("/admin/login", include_in_schema=False)
+def admin_login_page(request: Request):
+    """Provide a distinct entry point; the destination still checks the role."""
+    return _render(request, "account.html", {"signup": False, "admin_login": True})
+
+
+@router.post("/admin/login", include_in_schema=False)
+async def admin_login_form(request: Request):
+    """Authenticate normally, then let the server enforce admin access."""
+    return await _submit(request, signup=False, admin_login=True)
