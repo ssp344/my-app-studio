@@ -1,12 +1,15 @@
 {
-  "name": "Your Project",
-  "audience": "Not chosen yet",
-  "archetype": "Not chosen yet",
-  "promise": "Not chosen yet",
-  "headline": "A small idea. A real application.",
-  "summary": "This working page is your starting point. Give it a purpose and a brand, then build accounts and permissions one feature at a time.",
-  "voice": ["Not chosen yet"],
-  "design_direction": "Not chosen yet",
+  "name": "Shiv’s Book Store",
+  "audience": "All readers, including school and college students",
+  "archetype": "Everyperson: friendly and welcoming",
+  "promise": "Find your next book for school or leisure.",
+  "headline": "A book for every reader.",
+  "summary": "Welcome to Shiv’s Book Store. Explore books for learning, adventure, and everyday reading.",
+  "voice": [
+    "Friendly",
+    "Clear"
+  ],
+  "design_direction": "Simple book cards with a title, short description, and demo price; cream, green, and readable text",
   "palette": {
     "ink": "#182C34",
     "paper": "#F6F5EF",
