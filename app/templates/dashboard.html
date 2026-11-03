@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Your dashboard · {{ brand.name }}{% endblock %}
+{% block content %}
+<section class="panel" aria-labelledby="dashboard-title">
+  <p class="eyebrow">Private reader dashboard</p>
+  <h1 id="dashboard-title">Your member space</h1>
+  <p>Welcome, <strong>{{ user.username }}</strong>! You’re signed in to Shiv’s Book Store.</p>
+  <p>This is your private reader space. Explore the sample shelf whenever you need your next read.</p>
+  <p><a href="/#books">Browse books →</a></p>
+  <form method="post" action="/logout">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+    <button class="button" type="submit">Log out</button>
+  </form>
+</section>
+{% endblock %}

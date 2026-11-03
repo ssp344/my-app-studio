@@ -6,10 +6,10 @@ actual evidence; pending is a valid state. Keep explanations/help in
 
 ## Current stage
 
-- **Current feature:** APP-001.
-- **Status:** APP-001 implemented and kept locally; PR #2 open; learner prediction pending.
-- **Next step:** Wait for PR #2 CI, then learner merge decision.
-- **Implementation marker:** `studio.json`: `implemented_through: 1` after passing cumulative checks.
+- **Current feature:** APP-002.
+- **Status:** APP-001 merged with both main CI jobs passing; APP-002 implemented and kept locally; PR/CI next. APP-001 prediction remains pending.
+- **Next step:** Publish reviewed APP-002 work and inspect PR CI.
+- **Implementation marker:** `studio.json`: `implemented_through: 2` after passing cumulative checks.
 
 This repository owns application code. Server/proxy changes and production
 deployment are outside these three local-development lessons. Prepared helpers
@@ -41,9 +41,9 @@ helpers; keep data local. New accounts cannot choose their role.
 
 | Decision | Agreement |
 |---|---|
-| Expected public/private behavior and account flow | Pending |
-| Valid and rejected cases to demonstrate | Pending |
-| Own issue / branch / PR | Pending |
+| Expected public/private behavior and account flow | Signup → login → private reader dashboard → logout. Anonymous dashboard visitors redirect to login. New accounts are members. |
+| Valid and rejected cases to demonstrate | Valid signup/login; duplicate and invalid signup, role input, wrong passwords, missing CSRF, and revoked sessions rejected. |
+| Own issue / branch / PR | [Issue #3](https://github.com/ssp344/my-app-studio/issues/3); `feature/app-002-accounts`; PR pending. |
 
 **Keep when:** the agreed forms/API work; duplicate/invalid signup and wrong
 credentials are rejected; passwords are hashed; authentication uses validated,
@@ -81,8 +81,8 @@ customer research or claims that a timestamp proves learning.
 
 | Feature | Files / own issue / PR | Actual checks and learner observations | Kept / GitHub state |
 |---|---|---|---|
-| APP-001 | [Issue #1](https://github.com/ssp344/my-app-studio/issues/1); `app/brand.json`, `app/templates/home.html`, `app/templates/base.html`, `app/static/logo.svg`, `app/static/site.css` | Full `check --lesson APP-001` and normal `check` passed: 98 foundation + 2 contracts + 2 Chromium tests. Desktop 1280px and mobile 390px visually reviewed; no mobile horizontal overflow. Learner selected broken-link scenario with AI help and observed Browse books scrolling to the listings. | Learner chose to keep: simple and easy to look through. Record reviewed and pushed; [PR #2](https://github.com/ssp344/my-app-studio/pull/2) open; CI and merge pending. |
-| APP-002 | Pending | Unfinished; explicit contracts not yet passed | Pending |
+| APP-001 | [Issue #1](https://github.com/ssp344/my-app-studio/issues/1); `app/brand.json`, `app/templates/home.html`, `app/templates/base.html`, `app/static/logo.svg`, `app/static/site.css` | Full `check --lesson APP-001` and normal `check` passed: 98 foundation + 2 contracts + 2 Chromium tests. Desktop 1280px and mobile 390px visually reviewed; no mobile horizontal overflow. Learner selected broken-link scenario with AI help and observed Browse books scrolling to the listings. | Learner chose to keep: simple and easy to look through. Record reviewed and pushed; [PR #2](https://github.com/ssp344/my-app-studio/pull/2) merged; issue closed; both main CI jobs passed. |
+| APP-002 | [Issue #3](https://github.com/ssp344/my-app-studio/issues/3); `app/features/accounts.py`, `app/templates/account.html`, `app/templates/dashboard.html`, `app/templates/base.html` | Full APP-002 checks passed: 98 foundation, 14 cumulative contracts, 2 Chromium tests. Anonymous dashboard redirected to login; signup desktop/mobile reviewed. | Learner observed login page after logout/reopening dashboard; kept the flow to prevent access after logout; summary reviewed. Copied-cookie interpretation remains pending; PR/CI/merge next. |
 | APP-003 | Pending | Unfinished; explicit contracts not yet passed | Pending |
 
 The instructor's reference branches show possible implementations. They do not
