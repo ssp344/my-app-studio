@@ -1,0 +1,97 @@
+{
+  "displayedAnswer": "[1] Performs a frontend (client) copy. This is an operation that runs an SQL COPY command, but instead of the server reading or writing the specified file, psql reads or writes the file and routes the data between the server and the local file system. This means that file accessibility and privileges are those of the local user, not the server, and no SQL superuser privileges are required.\n\n[2] COPY with a file name instructs the PostgreSQL server to directly read from or write to a file. The file must be accessible by the PostgreSQL user (the user ID the server runs as) and the name must be specified from the viewpoint of the server. When PROGRAM is specified, the server executes the given command and reads from the standard output of the program, or writes to the standard input of the program. The command must be specified from the viewpoint of the server, and be executable by the PostgreSQL user. When STDIN or STDOUT is specified, data is transmitted via the connection between the client and the server.\n\n[1] psql: client-side \\copy\n\n[2] COPY: Description",
+  "question": "Can I import a CSV from my laptop if PostgreSQL runs on a different machine?",
+  "sourceLinks": [
+    {
+      "text": "[1] psql: client-side \\copy",
+      "url": "https://www.postgresql.org/docs/18/app-psql.html#APP-PSQL-META-COMMANDS-COPY"
+    },
+    {
+      "text": "[2] COPY: Description",
+      "url": "https://www.postgresql.org/docs/18/sql-copy.html#id-1.9.3.55.5"
+    }
+  ],
+  "trace": {
+    "answer": "[1] Performs a frontend (client) copy. This is an operation that runs an SQL COPY command, but instead of the server reading or writing the specified file, psql reads or writes the file and routes the data between the server and the local file system. This means that file accessibility and privileges are those of the local user, not the server, and no SQL superuser privileges are required.\n\n[2] COPY with a file name instructs the PostgreSQL server to directly read from or write to a file. The file must be accessible by the PostgreSQL user (the user ID the server runs as) and the name must be specified from the viewpoint of the server. When PROGRAM is specified, the server executes the given command and reads from the standard output of the program, or writes to the standard input of the program. The command must be specified from the viewpoint of the server, and be executable by the PostgreSQL user. When STDIN or STDOUT is specified, data is transmitted via the connection between the client and the server.",
+    "corpus_digest": "e39e6eea068f00e9661ac1665d76184c210b5c1b3468098ae9b81162a0d13ce7",
+    "mode": "extractive (no generative model)",
+    "question": "Can I import a CSV from my laptop if PostgreSQL runs on a different machine?",
+    "retrieved": [
+      {
+        "fetched_at": "2026-11-19",
+        "id": "pg18-psql-3ee6d3f03c369649",
+        "paragraph": 1,
+        "score": 0.384356,
+        "sha256": "3ee6d3f03c3696498b438b6018d27318429adcce727567b9438fb765e12f473e",
+        "source_id": "psql",
+        "source_url": "https://www.postgresql.org/docs/18/app-psql.html#APP-PSQL-META-COMMANDS-COPY",
+        "text": "Performs a frontend (client) copy. This is an operation that runs an SQL COPY command, but instead of the server reading or writing the specified file, psql reads or writes the file and routes the data between the server and the local file system. This means that file accessibility and privileges are those of the local user, not the server, and no SQL superuser privileges are required.",
+        "title": "psql: client-side \\copy",
+        "version": "18"
+      },
+      {
+        "fetched_at": "2026-11-19",
+        "id": "pg18-copy-b91294c2cfe3f91b",
+        "paragraph": 3,
+        "score": 0.291981,
+        "sha256": "b91294c2cfe3f91b058d904c5043accc088d8b615f27dc7c2838b0081054db5b",
+        "source_id": "copy",
+        "source_url": "https://www.postgresql.org/docs/18/sql-copy.html#id-1.9.3.55.5",
+        "text": "COPY with a file name instructs the PostgreSQL server to directly read from or write to a file. The file must be accessible by the PostgreSQL user (the user ID the server runs as) and the name must be specified from the viewpoint of the server. When PROGRAM is specified, the server executes the given command and reads from the standard output of the program, or writes to the standard input of the program. The command must be specified from the viewpoint of the server, and be executable by the PostgreSQL user. When STDIN or STDOUT is specified, data is transmitted via the connection between the client and the server.",
+        "title": "COPY: Description",
+        "version": "18"
+      },
+      {
+        "fetched_at": "2026-11-19",
+        "id": "pg18-copy-e113925a6c9c3333",
+        "paragraph": 1,
+        "score": 0.236787,
+        "sha256": "e113925a6c9c333390a91acd3134143d14246b53b79699aaefcc730e79f94b26",
+        "source_id": "copy",
+        "source_url": "https://www.postgresql.org/docs/18/sql-copy.html#id-1.9.3.55.5",
+        "text": "COPY moves data between PostgreSQL tables and standard file-system files. COPY TO copies the contents of a table to a file, while COPY FROM copies data from a file to a table (appending the data to whatever is in the table already). COPY TO can also copy the results of a SELECT query.",
+        "title": "COPY: Description",
+        "version": "18"
+      },
+      {
+        "fetched_at": "2026-11-19",
+        "id": "pg18-psql-7b2b8a8bf10589a6",
+        "paragraph": 2,
+        "score": 0.169578,
+        "sha256": "7b2b8a8bf10589a6995da6cc0aa924d33462e1db9fbb59c3f0f3dab6257dc3ca",
+        "source_id": "psql",
+        "source_url": "https://www.postgresql.org/docs/18/app-psql.html#APP-PSQL-META-COMMANDS-COPY",
+        "text": "When program is specified, command is executed by psql and the data passed from or to command is routed between the server and the client. Again, the execution privileges are those of the local user, not the server, and no SQL superuser privileges are required.",
+        "title": "psql: client-side \\copy",
+        "version": "18"
+      },
+      {
+        "fetched_at": "2026-11-19",
+        "id": "pg18-psql-6c75b5a2db77c3b0",
+        "paragraph": 6,
+        "score": 0.141127,
+        "sha256": "6c75b5a2db77c3b0fceb4024b6c6be16ce7f4ef6d658a2f95bd18c2a3152464c",
+        "source_id": "psql",
+        "source_url": "https://www.postgresql.org/docs/18/app-psql.html#APP-PSQL-META-COMMANDS-COPY",
+        "text": "These operations are not as efficient as the SQL COPY command with a file or program data source or destination, because all data must pass through the client/server connection. For large amounts of data the SQL command might be preferable.",
+        "title": "psql: client-side \\copy",
+        "version": "18"
+      }
+    ],
+    "sources": [
+      {
+        "chunk_id": "pg18-psql-3ee6d3f03c369649",
+        "citation": 1,
+        "title": "psql: client-side \\copy",
+        "url": "https://www.postgresql.org/docs/18/app-psql.html#APP-PSQL-META-COMMANDS-COPY"
+      },
+      {
+        "chunk_id": "pg18-copy-b91294c2cfe3f91b",
+        "citation": 2,
+        "title": "COPY: Description",
+        "url": "https://www.postgresql.org/docs/18/sql-copy.html#id-1.9.3.55.5"
+      }
+    ],
+    "status": "supported_excerpt"
+  }
+}

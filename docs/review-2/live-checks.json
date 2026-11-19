@@ -1,0 +1,518 @@
+{
+  "checked_at": "2026-11-19T21:31:27.388097+00:00",
+  "origin": "https://shiv-is373.xyz",
+  "tls_verification": true,
+  "routes": [
+    {
+      "path": "/portfolio",
+      "status": 200,
+      "final_url": "https://shiv-is373.xyz/portfolio"
+    },
+    {
+      "path": "/portfolio/rag",
+      "status": 200,
+      "final_url": "https://shiv-is373.xyz/portfolio/rag"
+    },
+    {
+      "path": "/portfolio/delivery",
+      "status": 200,
+      "final_url": "https://shiv-is373.xyz/portfolio/delivery"
+    },
+    {
+      "path": "/rag",
+      "status": 200,
+      "final_url": "https://shiv-is373.xyz/rag"
+    },
+    {
+      "path": "/review-static/review.css",
+      "status": 200,
+      "final_url": "https://shiv-is373.xyz/review-static/review.css"
+    },
+    {
+      "path": "/review-static/rag.js",
+      "status": 200,
+      "final_url": "https://shiv-is373.xyz/review-static/rag.js"
+    },
+    {
+      "path": "/api/review/sources",
+      "status": 200,
+      "final_url": "https://shiv-is373.xyz/api/review/sources"
+    },
+    {
+      "path": "/api/review/license",
+      "status": 200,
+      "final_url": "https://shiv-is373.xyz/api/review/license"
+    }
+  ],
+  "links": [
+    {
+      "url": "https://shiv-is373.xyz/portfolio#main",
+      "status": 200,
+      "final_url": "https://shiv-is373.xyz/portfolio#main",
+      "fragment_present": true
+    },
+    {
+      "url": "https://shiv-is373.xyz/portfolio",
+      "status": 200,
+      "final_url": "https://shiv-is373.xyz/portfolio"
+    },
+    {
+      "url": "https://shiv-is373.xyz/portfolio#work",
+      "status": 200,
+      "final_url": "https://shiv-is373.xyz/portfolio#work",
+      "fragment_present": true
+    },
+    {
+      "url": "https://shiv-is373.xyz/portfolio#direction",
+      "status": 200,
+      "final_url": "https://shiv-is373.xyz/portfolio#direction",
+      "fragment_present": true
+    },
+    {
+      "url": "https://shiv-is373.xyz/rag",
+      "status": 200,
+      "final_url": "https://shiv-is373.xyz/rag"
+    },
+    {
+      "url": "https://github.com/ssp344",
+      "status": 200,
+      "final_url": "https://github.com/ssp344"
+    },
+    {
+      "url": "https://shiv-is373.xyz/portfolio/rag",
+      "status": 200,
+      "final_url": "https://shiv-is373.xyz/portfolio/rag"
+    },
+    {
+      "url": "https://shiv-is373.xyz/portfolio/delivery",
+      "status": 200,
+      "final_url": "https://shiv-is373.xyz/portfolio/delivery"
+    },
+    {
+      "url": "https://shiv-is373.xyz/portfolio/delivery#release-evidence",
+      "status": 200,
+      "final_url": "https://shiv-is373.xyz/portfolio/delivery#release-evidence",
+      "fragment_present": true
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5186628007",
+      "status": 200,
+      "final_url": "https://job-boards.greenhouse.io/togetherai/jobs/5186628007"
+    },
+    {
+      "url": "https://github.com/ssp344/IS-373/blob/review-2-build/IS373-Individual-Plan.md#review-2-build",
+      "status": 200,
+      "final_url": "https://github.com/ssp344/IS-373/blob/review-2-build/IS373-Individual-Plan.md#review-2-build",
+      "fragment_present": true
+    },
+    {
+      "url": "https://shiv-is373.xyz/portfolio/rag#main",
+      "status": 200,
+      "final_url": "https://shiv-is373.xyz/portfolio/rag#main",
+      "fragment_present": true
+    },
+    {
+      "url": "https://github.com/pgvector/pgvector",
+      "status": 200,
+      "final_url": "https://github.com/pgvector/pgvector"
+    },
+    {
+      "url": "https://neo4j.com/docs/getting-started/appendix/graphdb-concepts/",
+      "status": 200,
+      "final_url": "https://neo4j.com/docs/getting-started/appendix/graphdb-concepts/"
+    },
+    {
+      "url": "https://github.com/ssp344/my-app-studio/tree/review-2-build",
+      "status": 200,
+      "final_url": "https://github.com/ssp344/my-app-studio/tree/review-2-build"
+    },
+    {
+      "url": "https://github.com/ssp344/my-app-studio/blob/review-2-build/docs/review-2/source-import.md",
+      "status": 200,
+      "final_url": "https://github.com/ssp344/my-app-studio/blob/review-2-build/docs/review-2/source-import.md"
+    },
+    {
+      "url": "https://github.com/ssp344/my-app-studio/blob/review-2-build/docs/review-2/live-checks.json",
+      "status": 200,
+      "final_url": "https://github.com/ssp344/my-app-studio/blob/review-2-build/docs/review-2/live-checks.json"
+    },
+    {
+      "url": "https://shiv-is373.xyz/portfolio/delivery#main",
+      "status": 200,
+      "final_url": "https://shiv-is373.xyz/portfolio/delivery#main",
+      "fragment_present": true
+    },
+    {
+      "url": "https://github.com/ssp344/IS-373/blob/main/.github/workflows/deploy.yml",
+      "status": 200,
+      "final_url": "https://github.com/ssp344/IS-373/blob/main/.github/workflows/deploy.yml"
+    },
+    {
+      "url": "https://github.com/ssp344/IS-373/pull/2",
+      "status": 200,
+      "final_url": "https://github.com/ssp344/IS-373/pull/2"
+    },
+    {
+      "url": "https://shiv-is373.xyz",
+      "status": 200,
+      "final_url": "https://shiv-is373.xyz"
+    },
+    {
+      "url": "https://github.com/ssp344/my-app-studio/blob/main/SPEC.md",
+      "status": 200,
+      "final_url": "https://github.com/ssp344/my-app-studio/blob/main/SPEC.md"
+    },
+    {
+      "url": "https://github.com/ssp344/my-app-studio/blob/main/LEARNING.md",
+      "status": 200,
+      "final_url": "https://github.com/ssp344/my-app-studio/blob/main/LEARNING.md"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/18/app-psql.html#APP-PSQL-META-COMMANDS-COPY",
+      "status": 200,
+      "final_url": "https://www.postgresql.org/docs/18/app-psql.html#APP-PSQL-META-COMMANDS-COPY",
+      "fragment_present": true
+    },
+    {
+      "url": "https://www.postgresql.org/docs/18/sql-copy.html#id-1.9.3.55.5",
+      "status": 200,
+      "final_url": "https://www.postgresql.org/docs/18/sql-copy.html#id-1.9.3.55.5",
+      "fragment_present": true
+    },
+    {
+      "url": "https://www.postgresql.org/docs/18/datatype-json.html#DATATYPE-JSON",
+      "status": 200,
+      "final_url": "https://www.postgresql.org/docs/18/datatype-json.html#DATATYPE-JSON",
+      "fragment_present": true
+    }
+  ],
+  "query_traces": [
+    {
+      "question": "Can I import a CSV from my laptop if PostgreSQL runs on a different machine?",
+      "mode": "extractive (no generative model)",
+      "status": "supported_excerpt",
+      "answer": "[1] Performs a frontend (client) copy. This is an operation that runs an SQL COPY command, but instead of the server reading or writing the specified file, psql reads or writes the file and routes the data between the server and the local file system. This means that file accessibility and privileges are those of the local user, not the server, and no SQL superuser privileges are required.\n\n[2] COPY with a file name instructs the PostgreSQL server to directly read from or write to a file. The file must be accessible by the PostgreSQL user (the user ID the server runs as) and the name must be specified from the viewpoint of the server. When PROGRAM is specified, the server executes the given command and reads from the standard output of the program, or writes to the standard input of the program. The command must be specified from the viewpoint of the server, and be executable by the PostgreSQL user. When STDIN or STDOUT is specified, data is transmitted via the connection between the client and the server.",
+      "retrieved": [
+        {
+          "id": "pg18-psql-3ee6d3f03c369649",
+          "source_id": "psql",
+          "title": "psql: client-side \\copy",
+          "source_url": "https://www.postgresql.org/docs/18/app-psql.html#APP-PSQL-META-COMMANDS-COPY",
+          "version": "18",
+          "paragraph": 1,
+          "text": "Performs a frontend (client) copy. This is an operation that runs an SQL COPY command, but instead of the server reading or writing the specified file, psql reads or writes the file and routes the data between the server and the local file system. This means that file accessibility and privileges are those of the local user, not the server, and no SQL superuser privileges are required.",
+          "sha256": "3ee6d3f03c3696498b438b6018d27318429adcce727567b9438fb765e12f473e",
+          "fetched_at": "2026-11-19",
+          "score": 0.384356
+        },
+        {
+          "id": "pg18-copy-b91294c2cfe3f91b",
+          "source_id": "copy",
+          "title": "COPY: Description",
+          "source_url": "https://www.postgresql.org/docs/18/sql-copy.html#id-1.9.3.55.5",
+          "version": "18",
+          "paragraph": 3,
+          "text": "COPY with a file name instructs the PostgreSQL server to directly read from or write to a file. The file must be accessible by the PostgreSQL user (the user ID the server runs as) and the name must be specified from the viewpoint of the server. When PROGRAM is specified, the server executes the given command and reads from the standard output of the program, or writes to the standard input of the program. The command must be specified from the viewpoint of the server, and be executable by the PostgreSQL user. When STDIN or STDOUT is specified, data is transmitted via the connection between the client and the server.",
+          "sha256": "b91294c2cfe3f91b058d904c5043accc088d8b615f27dc7c2838b0081054db5b",
+          "fetched_at": "2026-11-19",
+          "score": 0.291981
+        },
+        {
+          "id": "pg18-copy-e113925a6c9c3333",
+          "source_id": "copy",
+          "title": "COPY: Description",
+          "source_url": "https://www.postgresql.org/docs/18/sql-copy.html#id-1.9.3.55.5",
+          "version": "18",
+          "paragraph": 1,
+          "text": "COPY moves data between PostgreSQL tables and standard file-system files. COPY TO copies the contents of a table to a file, while COPY FROM copies data from a file to a table (appending the data to whatever is in the table already). COPY TO can also copy the results of a SELECT query.",
+          "sha256": "e113925a6c9c333390a91acd3134143d14246b53b79699aaefcc730e79f94b26",
+          "fetched_at": "2026-11-19",
+          "score": 0.236787
+        },
+        {
+          "id": "pg18-psql-7b2b8a8bf10589a6",
+          "source_id": "psql",
+          "title": "psql: client-side \\copy",
+          "source_url": "https://www.postgresql.org/docs/18/app-psql.html#APP-PSQL-META-COMMANDS-COPY",
+          "version": "18",
+          "paragraph": 2,
+          "text": "When program is specified, command is executed by psql and the data passed from or to command is routed between the server and the client. Again, the execution privileges are those of the local user, not the server, and no SQL superuser privileges are required.",
+          "sha256": "7b2b8a8bf10589a6995da6cc0aa924d33462e1db9fbb59c3f0f3dab6257dc3ca",
+          "fetched_at": "2026-11-19",
+          "score": 0.169578
+        },
+        {
+          "id": "pg18-psql-6c75b5a2db77c3b0",
+          "source_id": "psql",
+          "title": "psql: client-side \\copy",
+          "source_url": "https://www.postgresql.org/docs/18/app-psql.html#APP-PSQL-META-COMMANDS-COPY",
+          "version": "18",
+          "paragraph": 6,
+          "text": "These operations are not as efficient as the SQL COPY command with a file or program data source or destination, because all data must pass through the client/server connection. For large amounts of data the SQL command might be preferable.",
+          "sha256": "6c75b5a2db77c3b0fceb4024b6c6be16ce7f4ef6d658a2f95bd18c2a3152464c",
+          "fetched_at": "2026-11-19",
+          "score": 0.141127
+        }
+      ],
+      "sources": [
+        {
+          "citation": 1,
+          "chunk_id": "pg18-psql-3ee6d3f03c369649",
+          "url": "https://www.postgresql.org/docs/18/app-psql.html#APP-PSQL-META-COMMANDS-COPY",
+          "title": "psql: client-side \\copy"
+        },
+        {
+          "citation": 2,
+          "chunk_id": "pg18-copy-b91294c2cfe3f91b",
+          "url": "https://www.postgresql.org/docs/18/sql-copy.html#id-1.9.3.55.5",
+          "title": "COPY: Description"
+        }
+      ],
+      "corpus_digest": "e39e6eea068f00e9661ac1665d76184c210b5c1b3468098ae9b81162a0d13ce7"
+    },
+    {
+      "question": "Who reads the file for SQL COPY FROM 'file.csv' versus psql \\copy?",
+      "mode": "extractive (no generative model)",
+      "status": "supported_excerpt",
+      "answer": "[1] Performs a frontend (client) copy. This is an operation that runs an SQL COPY command, but instead of the server reading or writing the specified file, psql reads or writes the file and routes the data between the server and the local file system. This means that file accessibility and privileges are those of the local user, not the server, and no SQL superuser privileges are required.\n\n[2] COPY with a file name instructs the PostgreSQL server to directly read from or write to a file. The file must be accessible by the PostgreSQL user (the user ID the server runs as) and the name must be specified from the viewpoint of the server. When PROGRAM is specified, the server executes the given command and reads from the standard output of the program, or writes to the standard input of the program. The command must be specified from the viewpoint of the server, and be executable by the PostgreSQL user. When STDIN or STDOUT is specified, data is transmitted via the connection between the client and the server.",
+      "retrieved": [
+        {
+          "id": "pg18-psql-3ee6d3f03c369649",
+          "source_id": "psql",
+          "title": "psql: client-side \\copy",
+          "source_url": "https://www.postgresql.org/docs/18/app-psql.html#APP-PSQL-META-COMMANDS-COPY",
+          "version": "18",
+          "paragraph": 1,
+          "text": "Performs a frontend (client) copy. This is an operation that runs an SQL COPY command, but instead of the server reading or writing the specified file, psql reads or writes the file and routes the data between the server and the local file system. This means that file accessibility and privileges are those of the local user, not the server, and no SQL superuser privileges are required.",
+          "sha256": "3ee6d3f03c3696498b438b6018d27318429adcce727567b9438fb765e12f473e",
+          "fetched_at": "2026-11-19",
+          "score": 0.376252
+        },
+        {
+          "id": "pg18-psql-a89a04186de902e1",
+          "source_id": "psql",
+          "title": "psql: client-side \\copy",
+          "source_url": "https://www.postgresql.org/docs/18/app-psql.html#APP-PSQL-META-COMMANDS-COPY",
+          "version": "18",
+          "paragraph": 3,
+          "text": "For \\copy ... from stdin, data rows are read from the same source that issued the command, continuing until a line containing only \\. is read or the stream reaches EOF. This option is useful for populating tables in-line within an SQL script file. For \\copy ... to stdout, output is sent to the same place as psql command output, and the COPY count command status is not printed (since it might be confused with a data row). To read/write psql's standard input or output regardless of the current command source or \\o option, write from pstdin or to pstdout.",
+          "sha256": "a89a04186de902e1d2b584169663819f5e27fd7259b00f480ffa50d3f9bad627",
+          "fetched_at": "2026-11-19",
+          "score": 0.280173
+        },
+        {
+          "id": "pg18-psql-6c75b5a2db77c3b0",
+          "source_id": "psql",
+          "title": "psql: client-side \\copy",
+          "source_url": "https://www.postgresql.org/docs/18/app-psql.html#APP-PSQL-META-COMMANDS-COPY",
+          "version": "18",
+          "paragraph": 6,
+          "text": "These operations are not as efficient as the SQL COPY command with a file or program data source or destination, because all data must pass through the client/server connection. For large amounts of data the SQL command might be preferable.",
+          "sha256": "6c75b5a2db77c3b0fceb4024b6c6be16ce7f4ef6d658a2f95bd18c2a3152464c",
+          "fetched_at": "2026-11-19",
+          "score": 0.245797
+        },
+        {
+          "id": "pg18-copy-b91294c2cfe3f91b",
+          "source_id": "copy",
+          "title": "COPY: Description",
+          "source_url": "https://www.postgresql.org/docs/18/sql-copy.html#id-1.9.3.55.5",
+          "version": "18",
+          "paragraph": 3,
+          "text": "COPY with a file name instructs the PostgreSQL server to directly read from or write to a file. The file must be accessible by the PostgreSQL user (the user ID the server runs as) and the name must be specified from the viewpoint of the server. When PROGRAM is specified, the server executes the given command and reads from the standard output of the program, or writes to the standard input of the program. The command must be specified from the viewpoint of the server, and be executable by the PostgreSQL user. When STDIN or STDOUT is specified, data is transmitted via the connection between the client and the server.",
+          "sha256": "b91294c2cfe3f91b058d904c5043accc088d8b615f27dc7c2838b0081054db5b",
+          "fetched_at": "2026-11-19",
+          "score": 0.240839
+        },
+        {
+          "id": "pg18-copy-e113925a6c9c3333",
+          "source_id": "copy",
+          "title": "COPY: Description",
+          "source_url": "https://www.postgresql.org/docs/18/sql-copy.html#id-1.9.3.55.5",
+          "version": "18",
+          "paragraph": 1,
+          "text": "COPY moves data between PostgreSQL tables and standard file-system files. COPY TO copies the contents of a table to a file, while COPY FROM copies data from a file to a table (appending the data to whatever is in the table already). COPY TO can also copy the results of a SELECT query.",
+          "sha256": "e113925a6c9c333390a91acd3134143d14246b53b79699aaefcc730e79f94b26",
+          "fetched_at": "2026-11-19",
+          "score": 0.211886
+        }
+      ],
+      "sources": [
+        {
+          "citation": 1,
+          "chunk_id": "pg18-psql-3ee6d3f03c369649",
+          "url": "https://www.postgresql.org/docs/18/app-psql.html#APP-PSQL-META-COMMANDS-COPY",
+          "title": "psql: client-side \\copy"
+        },
+        {
+          "citation": 2,
+          "chunk_id": "pg18-copy-b91294c2cfe3f91b",
+          "url": "https://www.postgresql.org/docs/18/sql-copy.html#id-1.9.3.55.5",
+          "title": "COPY: Description"
+        }
+      ],
+      "corpus_digest": "e39e6eea068f00e9661ac1665d76184c210b5c1b3468098ae9b81162a0d13ce7"
+    },
+    {
+      "question": "How does jsonb differ from json?",
+      "mode": "extractive (no generative model)",
+      "status": "supported_excerpt",
+      "answer": "[1] The json and jsonb data types accept almost identical sets of values as input. The major practical difference is one of efficiency. The json data type stores an exact copy of the input text, which processing functions must reparse on each execution; while jsonb data is stored in a decomposed binary format that makes it slightly slower to input due to added conversion overhead, but significantly faster to process, since no reparsing is needed. jsonb also supports indexing, which can be a significant advantage.",
+      "retrieved": [
+        {
+          "id": "pg18-json-f9c8cfba826f39e5",
+          "source_id": "json",
+          "title": "JSON Types: introduction",
+          "source_url": "https://www.postgresql.org/docs/18/datatype-json.html#DATATYPE-JSON",
+          "version": "18",
+          "paragraph": 3,
+          "text": "The json and jsonb data types accept almost identical sets of values as input. The major practical difference is one of efficiency. The json data type stores an exact copy of the input text, which processing functions must reparse on each execution; while jsonb data is stored in a decomposed binary format that makes it slightly slower to input due to added conversion overhead, but significantly faster to process, since no reparsing is needed. jsonb also supports indexing, which can be a significant advantage.",
+          "sha256": "f9c8cfba826f39e58e4282aca6767b1e2281590b8a72e3383e21a64e94b2c793",
+          "fetched_at": "2026-11-19",
+          "score": 0.317295
+        },
+        {
+          "id": "pg18-json-9def7e0584ca1016",
+          "source_id": "json",
+          "title": "JSON Types: introduction",
+          "source_url": "https://www.postgresql.org/docs/18/datatype-json.html#DATATYPE-JSON",
+          "version": "18",
+          "paragraph": 2,
+          "text": "PostgreSQL offers two types for storing JSON data: json and jsonb. To implement efficient query mechanisms for these data types, PostgreSQL also provides the jsonpath data type described in Section 8.14.7.",
+          "sha256": "9def7e0584ca1016ff5fc36e39474575361b386b28ed80c62a79d3bc99e04982",
+          "fetched_at": "2026-11-19",
+          "score": 0.239164
+        },
+        {
+          "id": "pg18-json-dba6a7713552b0ff",
+          "source_id": "json",
+          "title": "JSON Types: introduction",
+          "source_url": "https://www.postgresql.org/docs/18/datatype-json.html#DATATYPE-JSON",
+          "version": "18",
+          "paragraph": 1,
+          "text": "JSON data types are for storing JSON (JavaScript Object Notation) data, as specified in RFC 7159. Such data can also be stored as text, but the JSON data types have the advantage of enforcing that each stored value is valid according to the JSON rules. There are also assorted JSON-specific functions and operators available for data stored in these data types; see Section 9.16.",
+          "sha256": "dba6a7713552b0ff90284304e60d06acd8d32f0e5d90fc118e048d39bb3c97bd",
+          "fetched_at": "2026-11-19",
+          "score": 0.158304
+        },
+        {
+          "id": "pg18-json-1ce33e51d7ef8754",
+          "source_id": "json",
+          "title": "JSON Types: introduction",
+          "source_url": "https://www.postgresql.org/docs/18/datatype-json.html#DATATYPE-JSON",
+          "version": "18",
+          "paragraph": 4,
+          "text": "Because the json type stores an exact copy of the input text, it will preserve semantically-insignificant white space between tokens, as well as the order of keys within JSON objects. Also, if a JSON object within the value contains the same key more than once, all the key/value pairs are kept. (The processing functions consider the last value as the operative one.) By contrast, jsonb does not preserve white space, does not preserve the order of object keys, and does not keep duplicate object keys. If duplicate keys are specified in the input, only the last value is kept.",
+          "sha256": "1ce33e51d7ef87547eb0abadbb308f69f64c2b5073e852ca0b7daf5bfa444672",
+          "fetched_at": "2026-11-19",
+          "score": 0.148219
+        }
+      ],
+      "sources": [
+        {
+          "citation": 1,
+          "chunk_id": "pg18-json-f9c8cfba826f39e5",
+          "url": "https://www.postgresql.org/docs/18/datatype-json.html#DATATYPE-JSON",
+          "title": "JSON Types: introduction"
+        }
+      ],
+      "corpus_digest": "e39e6eea068f00e9661ac1665d76184c210b5c1b3468098ae9b81162a0d13ce7"
+    },
+    {
+      "question": "What is the password for my database?",
+      "mode": "extractive (no generative model)",
+      "status": "insufficient_evidence",
+      "answer": "Insufficient evidence in the selected imported excerpts. Try a question about PostgreSQL COPY, psql \\copy, or json/jsonb.",
+      "retrieved": [],
+      "sources": [],
+      "corpus_digest": "e39e6eea068f00e9661ac1665d76184c210b5c1b3468098ae9b81162a0d13ce7"
+    }
+  ],
+  "imports": [
+    {
+      "selected_chunks": 15,
+      "inserted": 0,
+      "total_chunks": 15,
+      "chunk_ids": [
+        "pg18-copy-03a6e09f07383719",
+        "pg18-copy-422e2d3078b643c4",
+        "pg18-copy-9ff0b537c34fd9fd",
+        "pg18-copy-b91294c2cfe3f91b",
+        "pg18-copy-e113925a6c9c3333",
+        "pg18-json-1ce33e51d7ef8754",
+        "pg18-json-9def7e0584ca1016",
+        "pg18-json-dba6a7713552b0ff",
+        "pg18-json-f9c8cfba826f39e5",
+        "pg18-psql-3ee6d3f03c369649",
+        "pg18-psql-6c75b5a2db77c3b0",
+        "pg18-psql-7b2b8a8bf10589a6",
+        "pg18-psql-8fb2ad89d77fb35a",
+        "pg18-psql-a89a04186de902e1",
+        "pg18-psql-b5d8228c876df91e"
+      ],
+      "sample": {
+        "id": "pg18-psql-3ee6d3f03c369649",
+        "source_id": "psql",
+        "title": "psql: client-side \\copy",
+        "source_url": "https://www.postgresql.org/docs/18/app-psql.html#APP-PSQL-META-COMMANDS-COPY",
+        "version": "18",
+        "paragraph": 1,
+        "text": "Performs a frontend (client) copy. This is an operation that runs an SQL COPY command, but instead of the server reading or writing the specified file, psql reads or writes the file and routes the data between the server and the local file system. This means that file accessibility and privileges are those of the local user, not the server, and no SQL superuser privileges are required.",
+        "sha256": "3ee6d3f03c3696498b438b6018d27318429adcce727567b9438fb765e12f473e",
+        "fetched_at": "2026-11-19"
+      },
+      "license_url": "/api/review/license"
+    },
+    {
+      "selected_chunks": 15,
+      "inserted": 0,
+      "total_chunks": 15,
+      "chunk_ids": [
+        "pg18-copy-03a6e09f07383719",
+        "pg18-copy-422e2d3078b643c4",
+        "pg18-copy-9ff0b537c34fd9fd",
+        "pg18-copy-b91294c2cfe3f91b",
+        "pg18-copy-e113925a6c9c3333",
+        "pg18-json-1ce33e51d7ef8754",
+        "pg18-json-9def7e0584ca1016",
+        "pg18-json-dba6a7713552b0ff",
+        "pg18-json-f9c8cfba826f39e5",
+        "pg18-psql-3ee6d3f03c369649",
+        "pg18-psql-6c75b5a2db77c3b0",
+        "pg18-psql-7b2b8a8bf10589a6",
+        "pg18-psql-8fb2ad89d77fb35a",
+        "pg18-psql-a89a04186de902e1",
+        "pg18-psql-b5d8228c876df91e"
+      ],
+      "sample": {
+        "id": "pg18-psql-3ee6d3f03c369649",
+        "source_id": "psql",
+        "title": "psql: client-side \\copy",
+        "source_url": "https://www.postgresql.org/docs/18/app-psql.html#APP-PSQL-META-COMMANDS-COPY",
+        "version": "18",
+        "paragraph": 1,
+        "text": "Performs a frontend (client) copy. This is an operation that runs an SQL COPY command, but instead of the server reading or writing the specified file, psql reads or writes the file and routes the data between the server and the local file system. This means that file accessibility and privileges are those of the local user, not the server, and no SQL superuser privileges are required.",
+        "sha256": "3ee6d3f03c3696498b438b6018d27318429adcce727567b9438fb765e12f473e",
+        "fetched_at": "2026-11-19"
+      },
+      "license_url": "/api/review/license"
+    }
+  ],
+  "existing_projects": [
+    {
+      "url": "https://shiv-is373.xyz",
+      "status": 200,
+      "final_url": "https://shiv-is373.xyz"
+    },
+    {
+      "url": "https://qa.shiv-is373.xyz",
+      "status": 200,
+      "final_url": "https://qa.shiv-is373.xyz"
+    },
+    {
+      "url": "https://calc.shiv-is373.xyz",
+      "status": 200,
+      "final_url": "https://calc.shiv-is373.xyz"
+    }
+  ]
+}

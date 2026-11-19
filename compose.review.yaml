@@ -1,0 +1,33 @@
+name: is373-individual-review
+services:
+  review:
+    build:
+      context: .
+      dockerfile: Dockerfile.review
+    image: is373-individual-review:build2
+    restart: unless-stopped
+    env_file: .env.review
+    environment:
+      APP_ORIGIN: https://shiv-is373.xyz
+    volumes:
+      - review-data:/data
+    networks:
+      - hosting-web
+    mem_limit: 192m
+    cpus: 0.5
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    labels:
+      traefik.enable: "true"
+      traefik.docker.network: hosting-web
+      traefik.http.routers.individual-review.rule: Host(`shiv-is373.xyz`) && (Path(`/portfolio`) || PathPrefix(`/portfolio/`) || Path(`/rag`) || PathPrefix(`/api/review/`) || PathPrefix(`/review-static/`))
+      traefik.http.routers.individual-review.entrypoints: websecure
+      traefik.http.routers.individual-review.priority: "100"
+      traefik.http.services.individual-review.loadbalancer.server.port: "8000"
+networks:
+  hosting-web:
+    external: true
+volumes:
+  review-data:

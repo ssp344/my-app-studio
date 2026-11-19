@@ -1,0 +1,10 @@
+.git
+.venv
+runtime
+.env*
+tests
+contracts
+docs
+test-results
+__pycache__
+*.sqlite*
