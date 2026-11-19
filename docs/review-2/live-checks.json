@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-19T21:23:48.316064+00:00",
+  "checked_at": "2026-11-19T21:31:27.388097+00:00",
   "origin": "https://shiv-is373.xyz",
   "tls_verification": true,
   "routes": [
@@ -101,7 +101,9 @@
     },
     {
       "url": "https://github.com/ssp344/IS-373/blob/review-2-build/IS373-Individual-Plan.md#review-2-build",
-      "error": "HTTP Error 404: Not Found"
+      "status": 200,
+      "final_url": "https://github.com/ssp344/IS-373/blob/review-2-build/IS373-Individual-Plan.md#review-2-build",
+      "fragment_present": true
     },
     {
       "url": "https://shiv-is373.xyz/portfolio/rag#main",
@@ -131,7 +133,8 @@
     },
     {
       "url": "https://github.com/ssp344/my-app-studio/blob/review-2-build/docs/review-2/live-checks.json",
-      "error": "HTTP Error 404: Not Found"
+      "status": 200,
+      "final_url": "https://github.com/ssp344/my-app-studio/blob/review-2-build/docs/review-2/live-checks.json"
     },
     {
       "url": "https://shiv-is373.xyz/portfolio/delivery#main",
@@ -163,6 +166,24 @@
       "url": "https://github.com/ssp344/my-app-studio/blob/main/LEARNING.md",
       "status": 200,
       "final_url": "https://github.com/ssp344/my-app-studio/blob/main/LEARNING.md"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/18/app-psql.html#APP-PSQL-META-COMMANDS-COPY",
+      "status": 200,
+      "final_url": "https://www.postgresql.org/docs/18/app-psql.html#APP-PSQL-META-COMMANDS-COPY",
+      "fragment_present": true
+    },
+    {
+      "url": "https://www.postgresql.org/docs/18/sql-copy.html#id-1.9.3.55.5",
+      "status": 200,
+      "final_url": "https://www.postgresql.org/docs/18/sql-copy.html#id-1.9.3.55.5",
+      "fragment_present": true
+    },
+    {
+      "url": "https://www.postgresql.org/docs/18/datatype-json.html#DATATYPE-JSON",
+      "status": 200,
+      "final_url": "https://www.postgresql.org/docs/18/datatype-json.html#DATATYPE-JSON",
+      "fragment_present": true
     }
   ],
   "query_traces": [
@@ -410,7 +431,7 @@
   "imports": [
     {
       "selected_chunks": 15,
-      "inserted": 15,
+      "inserted": 0,
       "total_chunks": 15,
       "chunk_ids": [
         "pg18-copy-03a6e09f07383719",
