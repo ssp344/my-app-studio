@@ -1,0 +1,35 @@
+[
+  {
+    "id": "psql",
+    "title": "psql: client-side \\copy",
+    "url": "https://www.postgresql.org/docs/18/app-psql.html",
+    "snapshot": "corpus/raw/psql.html",
+    "snapshot_sha256": "1c6880dd9de6465639be04aae66d10b725b9e9849e08f0c8716c1a4e01d209ca",
+    "fetched_at": "2026-11-19",
+    "version": "18",
+    "imported_scope": "6 paragraphs in psql: client-side \\copy",
+    "chunks": 6
+  },
+  {
+    "id": "copy",
+    "title": "COPY: Description",
+    "url": "https://www.postgresql.org/docs/18/sql-copy.html",
+    "snapshot": "corpus/raw/copy.html",
+    "snapshot_sha256": "a8f8858ca738354ca4e9e70f33f277671598407cf93a0675ed5b672011916789",
+    "fetched_at": "2026-11-19",
+    "version": "18",
+    "imported_scope": "5 paragraphs in COPY: Description",
+    "chunks": 5
+  },
+  {
+    "id": "json",
+    "title": "JSON Types: introduction",
+    "url": "https://www.postgresql.org/docs/18/datatype-json.html",
+    "snapshot": "corpus/raw/json.html",
+    "snapshot_sha256": "e79e495629535a9fc976cabc05a0376380b5bc7bcb4798bcdfd02eb45fa53146",
+    "fetched_at": "2026-11-19",
+    "version": "18",
+    "imported_scope": "4 paragraphs in JSON Types: introduction",
+    "chunks": 4
+  }
+]
