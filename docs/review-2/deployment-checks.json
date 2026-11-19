@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-11-19T21:30:41.627882+00:00",
+  "source_revision": "e61dff5286b18d69ba9e52c06cc419f73af098d1",
+  "directory": "/home/deploy/apps/is373-individual-review",
+  "before_ids": {
+    "is373-production-1": "840cbfc2ee46",
+    "is373-studio-calculator-calculator-1": "d6b7687a35ea",
+    "is373-qa-1": "34d28d04ca21",
+    "hosting373-traefik-1": "f73afc908783"
+  },
+  "after": [
+    {
+      "name": "is373-individual-review-review-1",
+      "id": "13777f6c573e",
+      "image": "is373-individual-review:build2",
+      "status": "Up 7 minutes"
+    },
+    {
+      "name": "is373-production-1",
+      "id": "840cbfc2ee46",
+      "image": "ghcr.io/ssp344/is-373:production",
+      "status": "Up 7 days"
+    },
+    {
+      "name": "is373-studio-calculator-calculator-1",
+      "id": "d6b7687a35ea",
+      "image": "aec414c990a5",
+      "status": "Up 2 weeks (healthy)"
+    },
+    {
+      "name": "is373-qa-1",
+      "id": "34d28d04ca21",
+      "image": "ghcr.io/ssp344/is-373:qa",
+      "status": "Up 6 weeks"
+    },
+    {
+      "name": "hosting373-traefik-1",
+      "id": "f73afc908783",
+      "image": "traefik:v3.7.13",
+      "status": "Up 6 weeks (healthy)"
+    }
+  ],
+  "existing_container_ids_unchanged": {
+    "is373-production-1": true,
+    "is373-studio-calculator-calculator-1": true,
+    "is373-qa-1": true,
+    "hosting373-traefik-1": true
+  },
+  "review_status": "running",
+  "review_restart_count": 0,
+  "review_image_id": "sha256:30884ac563a576d39a00a8f08037226992b84b1731bad99a16533b889a437ef8",
+  "observed_memory": "42.79 MiB / 192 MiB in earlier docker stats check",
+  "raw_secrets_or_environment_included": false
+}

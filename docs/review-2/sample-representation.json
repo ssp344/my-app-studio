@@ -1,0 +1,11 @@
+{
+  "id": "pg18-psql-3ee6d3f03c369649",
+  "source_id": "psql",
+  "title": "psql: client-side \\copy",
+  "source_url": "https://www.postgresql.org/docs/18/app-psql.html#APP-PSQL-META-COMMANDS-COPY",
+  "version": "18",
+  "paragraph": 1,
+  "text": "Performs a frontend (client) copy. This is an operation that runs an SQL COPY command, but instead of the server reading or writing the specified file, psql reads or writes the file and routes the data between the server and the local file system. This means that file accessibility and privileges are those of the local user, not the server, and no SQL superuser privileges are required.",
+  "sha256": "3ee6d3f03c3696498b438b6018d27318429adcce727567b9438fb765e12f473e",
+  "fetched_at": "2026-11-19"
+}

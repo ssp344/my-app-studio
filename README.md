@@ -1,5 +1,21 @@
 # IS373 App Studio
 
+## Individual Review 2 build
+
+The `review-2-build` branch adds a [hosted portfolio](https://shiv-is373.xyz/portfolio)
+and a [PostgreSQL documentation assistant](https://shiv-is373.xyz/rag), reusing this
+FastAPI foundation. The assistant is a working **extractive retrieval prototype**;
+model-backed generation and learned embeddings/pgvector remain unfinished.
+Run the app as documented below, then open `/portfolio` or `/rag` locally.
+
+The canonical [individual review record](https://github.com/ssp344/IS-373/blob/review-2-build/IS373-Individual-Plan.md#review-2-build)
+preserves Review 1 and adds Review 2. Supporting artifacts: [source/import scope](docs/review-2/source-import.md),
+[live checks](docs/review-2/live-checks.json), [displayed trace](docs/review-2/browser-query-trace.json),
+[browser checks](docs/review-2/browser-checks.md), and [deployment](docs/review-2/deployment.md).
+The bookstore homepage and earlier lesson records remain intact. Joey's separate project is outside this build's scope.
+
+The original lesson guide follows.
+
 **Build a small web application with an AI coach—and understand why it works.**
 Start with a working, neutral FastAPI page. Give it a brand, add accounts, then
 enforce member/admin permissions. Each lesson ends with a visible result, actual

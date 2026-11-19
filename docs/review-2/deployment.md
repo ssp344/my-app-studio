@@ -11,7 +11,7 @@ The application reuses the existing FastAPI foundation and DigitalOcean Docker/T
 
 ## Reproduce the scoped deployment
 
-On the existing server, use an isolated directory `/opt/is373-individual-review`. Transfer only `app/`, `studio_tools/`, `corpus/`, `Dockerfile.review`, `requirements-runtime.txt`, `.dockerignore`, and `compose.review.yaml` from the source revision. Generate `APP_SECRET` privately in `.env.review` (at least 32 random bytes; file mode 0600). Do not paste it into a report or command-line argument.
+The actual isolated directory is `/home/deploy/apps/is373-individual-review`. The deploy account permits passwordless Docker but not passwordless creation of `/opt` directories, so no sudo permissions were changed. Transfer only `app/`, `studio_tools/`, `corpus/`, `Dockerfile.review`, `requirements-runtime.txt`, `.dockerignore`, and `compose.review.yaml` from the source revision. Generate `APP_SECRET` privately in `.env.review` (at least 32 random bytes; file mode 0600). Do not paste it into a report or command-line argument.
 
 Run from that directory:
 

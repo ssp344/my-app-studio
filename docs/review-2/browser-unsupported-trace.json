@@ -1,0 +1,14 @@
+{
+  "answer": "Insufficient evidence in the selected imported excerpts. Try a question about PostgreSQL COPY, psql \\copy, or json/jsonb.",
+  "question": "What is the password for my database?",
+  "sourceCount": 0,
+  "trace": {
+    "answer": "Insufficient evidence in the selected imported excerpts. Try a question about PostgreSQL COPY, psql \\copy, or json/jsonb.",
+    "corpus_digest": "e39e6eea068f00e9661ac1665d76184c210b5c1b3468098ae9b81162a0d13ce7",
+    "mode": "extractive (no generative model)",
+    "question": "What is the password for my database?",
+    "retrieved": [],
+    "sources": [],
+    "status": "insufficient_evidence"
+  }
+}
